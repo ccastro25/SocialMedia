@@ -1,0 +1,125 @@
+.gridblock{
+    background-color: blue;
+    height: 100%;
+}
+
+.PlataSign{
+    margin-left: 10px;
+}
+.singUpInnerContianer{
+    height: 500px;
+    width: 350px;
+    border: 1px solid rgb(142,142,142);
+}
+
+.LoginContainer{
+    height: 70px;
+    width: 350px;
+    border: 1px solid rgb(142,142,142);
+    margin-top: 10px;
+    text-align: center;
+}
+.singUpcontainer{
+    margin-top: 12px;
+    max-width: 1123px;
+    background-color: rgb(255,255,255);
+    height: 819px;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px 
+}
+
+.signUpText{
+    color: rgb(var(--ig-secondary-text));
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0 40px 10px;
+    text-align: center;
+    color: rgb(142,142,142);
+    
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .loginWithFaceBookButton{
+    
+  border-radius: 8px;
+  font-size: 14px;
+      
+      height:34px ;
+      width: 268px;
+    margin: 0 34px;
+    background-color: rgb(0,149,246);
+    border: none;
+    color:white;
+   text-align: center;
+    font-weight: bold;
+    padding: 7px 16px;
+ }
+
+
+ .SignUPButton{
+    border-radius: 8px;
+    font-size: 14px;
+     
+        height:34px ;
+        width: 268px;
+      margin: 20px 34px;
+      background-color: rgb(0,149,246);
+      border: none;
+      color:white;
+     text-align: center;
+      font-weight: bold;
+      padding: 7px 16px;
+ }
+
+ .Logo{
+    color:rgb(0,149,246) ;
+    background-color: white;
+
+    margin-right: 10px;
+}
+
+.OrLines{
+    display: flex;
+    border-bottom: 1px solid;
+    width: 100px;
+    height: 10px;
+    margin: 0 10px;
+}
+.OrContainer{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: center;
+    color: rgb(142,142,142);
+    font-weight: bold;
+}
+.InputFields{
+    margin-top: 15px;
+}
+.InputBox{
+    width: 266px;
+    height: 36px;
+    margin: 0 30px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border-color:rgb(142,142,142) ;
+    padding-left: 8px;
+    color: rgb(142,142,142);
+    border-width: .5px;
+}
+
+.LoginText{
+    margin: 25px;
+}

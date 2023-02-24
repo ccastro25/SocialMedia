@@ -1,0 +1,45 @@
+.PostContainer{
+    border-bottom: 1px solid gray;
+    width: 470px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.PostHeader{
+    display: flex;
+    height: 58px;
+    width: 470px;
+  }
+  
+  .Name{
+    color: white;
+    margin: 0 5px;
+    font-weight: bold;
+  
+  }
+  .postext{
+    color: white;
+    margin: 0 4px;
+    font-size: .8rem;
+    padding:2px;
+  }
+  .ImgPosted{
+    width: 468px;
+    height: 253px;
+  }
+  .PostIcons{
+   display: inline;
+    font-size: 40px ; 
+    color: white;
+    height: 70px;
+    width: 56px;
+    padding: 6px;
+  
+  }
+  
+  
+  .PostComments{color: white;}
+  .commentBox{
+    background: black;
+    border: none;
+    font-weight: bold;
+  }

@@ -1,0 +1,43 @@
+.sideBar{
+    background-color: black;
+    text-align: center;
+    border-right: 0.05px solid white;
+    flex-direction: column;
+    padding: 8px 12px 10px;
+    height: 100%;
+    align-items: center;
+    position: fixed;
+}
+
+.MainIcons{
+    margin-top: 20px;
+    font-size: 40 ; 
+    color: white;
+    height: 80px;
+    width: 56px;
+}
+
+.SideIcons{
+    font-size: 40px ; 
+    color: white;
+    height: 70px;
+    width: 56px;
+}
+
+.profileAvitar{
+  margin-left:10px ;
+  height: 30px;
+  width: 30px;
+    
+}
+
+.sideIconsContainer{
+    height: 82%;
+    width: 48;
+    ;
+}
+
+.MenuIcon{
+    color: white;
+
+}

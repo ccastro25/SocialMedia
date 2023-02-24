@@ -1,0 +1,69 @@
+.LogIncontainer{
+    margin-top: 12px;
+    max-width: 1123px;
+    background-color: rgb(255,255,255);
+    height: 819px;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px 
+}
+
+
+.LogInInnerContianer{
+    height: 400px;
+    width: 350px;
+    border: 1px solid rgb(142,142,142);
+}
+
+.grid1{
+   
+   
+    height: 1125px;
+}
+
+.innerGrid{
+    
+    height: 379px; 
+    width: 348px;
+}
+.MidinnerGrid{
+    border: 1px solid rgb(142,142,142);
+    height: 379px; 
+    width: 348px;
+}
+
+.LoginWithFacebook{
+    font-weight: bold;
+    text-align: center;
+    color: #385185;
+}
+
+.SignUP{
+    height: 53px;
+    width: 350px;
+    border: 1px solid rgb(142,142,142);
+    margin-top: 10px ;
+    text-align: center;
+}
+
+.SignUpText{
+    font-weight: bold;
+}
+
+.singupWord{
+    color: rgb(0,149,246);
+}
+
+.Logo{
+    background-color: rgb(56,80,133);
+    color: white;
+}
+
+.InputBox{
+    background-color: rgb(250,250,250);
+}
