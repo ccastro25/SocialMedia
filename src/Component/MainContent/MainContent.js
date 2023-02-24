@@ -31,9 +31,44 @@ class MainContent extends Component{
                                 <Post/>
                             </Grid>
                             <Grid   item xs ={3}>
-                               <div>
-                                    <Avatar/>
-                                </div>
+                            <div className="suggestions">
+                                <div className="suggestionsText">Suggestions for you</div>
+                                <div className="PicAndNameContainer">
+                                    <div className="suggestionsPic"> <Avatar/> </div> 
+                                    <div className="NameAndFollowContainer">
+                                        <div className="Name">Raul</div>
+                                        
+                                        <div className="follow">Follow</div>
+                                    </div>                                   
+                                 </div>
+
+                                 <div className="PicAndNameContainer">
+                                    <div className="suggestionsPic"> <Avatar/> </div> 
+                                    <div className="NameAndFollowContainer">
+                                        <div className="Name">Raul</div>
+                                        
+                                        <div className="follow">Follow</div>
+                                    </div>                                   
+                                 </div>
+
+                                 <div className="PicAndNameContainer">
+                                    <div className="suggestionsPic"> <Avatar/> </div> 
+                                    <div className="NameAndFollowContainer">
+                                        <div className="Name">Raul</div>
+                                        
+                                        <div className="follow">Follow</div>
+                                    </div>                                   
+                                 </div>
+
+                                 <div className="PicAndNameContainer">
+                                    <div className="suggestionsPic"> <Avatar/> </div> 
+                                    <div className="NameAndFollowContainer">
+                                        <div className="Name">Raul</div>
+                                        
+                                        <div className="follow">Follow</div>
+                                    </div>                                   
+                                 </div>
+                             </div>
                             </Grid>
                            </div>
                         </Grid>
