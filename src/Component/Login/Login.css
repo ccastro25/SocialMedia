@@ -1,7 +1,7 @@
 .LogIncontainer{
     margin-top: 12px;
     max-width: 1123px;
-    background-color: rgb(255,255,255);
+   
     height: 819px;
     align-items: center;
 
@@ -53,6 +53,7 @@
 
 .SignUpText{
     font-weight: bold;
+    color: white;
 }
 
 .singupWord{

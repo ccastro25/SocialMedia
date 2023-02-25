@@ -2,7 +2,7 @@ import React,{Component} from "react";
 import {Grid} from '@mui/material';
 import SideBar from "../SideBar/SideBar";
 import   "./MainContent.css"
-import Avatar from '@mui/material/Avatar';
+
 import StoryBoard from "../StoryBoard/StoryBoard";
 
 import Post from "../Post/Post";

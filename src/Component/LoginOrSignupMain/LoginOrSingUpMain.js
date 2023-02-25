@@ -13,9 +13,9 @@ class LoginOrSignUpMain extends Component{
         return(
             <div>
                 
-               <MainContent/>
-               {/*<Login/>*/}
-               {/**<SignUp/> */} 
+               {/*<MainContent/>*/}
+              {/*<Login/>*/ } 
+               <SignUp/> 
             </div>
         );
     }

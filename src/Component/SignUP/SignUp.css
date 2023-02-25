@@ -22,7 +22,7 @@
 .singUpcontainer{
     margin-top: 12px;
     max-width: 1123px;
-    background-color: rgb(255,255,255);
+   
     height: 819px;
     align-items: center;
 
@@ -122,4 +122,5 @@
 
 .LoginText{
     margin: 25px;
+    color:white;
 }

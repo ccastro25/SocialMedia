@@ -16,8 +16,8 @@ class Login extends Component{
 
 
         <Grid container >
-                        <Grid  item xs={4}></Grid>
-                        <Grid className='grid1'  item xs={4}>
+                        <Grid  item xs={5}></Grid>
+                        <Grid className='grid1'  item xs={2}>
 
                        
                         <div className='LogIncontainer'>
@@ -47,7 +47,7 @@ class Login extends Component{
                         </div>
                         
                         </Grid>
-                        <Grid   item xs={4}></Grid>
+                        <Grid   item xs={5}></Grid>
 
 
         </Grid>
