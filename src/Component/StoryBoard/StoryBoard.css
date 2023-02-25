@@ -1,22 +1,16 @@
 
 
-  .postBackGround{
-      background:black;
-      padding-top: 4px;
-      width: 90%;
-      margin:0 auto;
-    padding-top: 4px;
-
-  }
+ 
   
   .StoryBar{
-     margin:  16px 0;
+     
      overflow-y: hidden;
       height: 85px;
-      width: 470px;
+      width: 460px;
       display: flex;
       align-items: center;
       overflow-y: scroll;
+      margin:0 20% 5px ;
   }
   
   .storyAvatar{

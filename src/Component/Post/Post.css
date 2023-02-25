@@ -1,8 +1,8 @@
 .PostContainer{
-    border-bottom: 1px solid gray;
-    width: 470px;
+  border-bottom: 1px solid rgb(38,38,38);
+    padding:0 20% 5px ;
     margin-bottom: 10px;
-    padding-bottom: 5px;
+    
 }
 .PostHeader{
     display: flex;
@@ -24,7 +24,7 @@
   }
   .ImgPosted{
     width: 468px;
-    height: 253px;
+    border: 1px solid rgb(38,38,38);
   }
   .PostIcons{
    display: inline;

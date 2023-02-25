@@ -2,11 +2,17 @@
 body{
   background: black;
 }
-
 .postBackGround{
-  display: flex;
+  background:black;
+  padding-top: 4px;
+  width: 90%;
+  margin:0 auto;
+padding-top: 4px;
+display: flex;
 
 }
+
+
 .suggestions{
 
   margin-top: 8px;

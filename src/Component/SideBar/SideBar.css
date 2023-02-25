@@ -1,12 +1,13 @@
 .sideBar{
     background-color: black;
-    text-align: center;
-    border-right: 0.05px solid white;
+    
+    border-right: 0.05px solid rgb(38,38,38);
     flex-direction: column;
     padding: 8px 12px 10px;
     height: 100%;
-    align-items: center;
+    
     position: fixed;
+    width: 220px;
 }
 
 .MainIcons{
@@ -18,26 +19,38 @@
 }
 
 .SideIcons{
-    font-size: 40px ; 
+    
+    
+    padding-left: 10px;
+    align-items: center;
     color: white;
-    height: 70px;
+    height: 65px;
     width: 56px;
+    display: flex;
 }
 
 .profileAvitar{
   margin-left:10px ;
   height: 30px;
   width: 30px;
-    
+  
 }
 
+
+
+
 .sideIconsContainer{
-    height: 82%;
-    width: 48;
-    ;
+    height: 76%;
+    width: 220px;
+    
 }
 
 .MenuIcon{
     color: white;
+    
+}
 
+.SideIconText{
+    padding-left: 20px;
+    font-weight:bolder; 
 }

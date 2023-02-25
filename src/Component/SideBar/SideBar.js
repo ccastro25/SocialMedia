@@ -21,22 +21,42 @@ class SideBar extends Component{
             <div>
                               <div className='sideBar'>
                             <div className="MainIcons" >
+                            <div  className="SideIcons">
                                 <AllInclusiveOutlinedIcon sx={{ fontSize: 30, color:'white' }}/>
                                 </div>
+                                </div>
                                 <div className="sideIconsContainer">
-                                    <div  className="SideIcons"><HomeOutlinedIcon  sx={{ fontSize: 30, color:'white' }} /></div>
+                                    <div  className="SideIcons"><HomeOutlinedIcon  sx={{ fontSize: 30, color:'white' }} />
+                                        <div className='SideIconText'>Home</div>
+                                    </div>
                                     
-                                    <div  className="SideIcons"><SearchIcon   /></div>
-                                    <div  className="SideIcons"><ExploreOutlinedIcon   /></div>
-                                    <div  className="SideIcons"><SendOutlinedIcon  /> </div>
-                                    <div  className="SideIcons"><FavoriteBorderOutlinedIcon  /></div>
-                                    <div  className="SideIcons"><AddOutlinedIcon   /></div>
-                                    <div  className="profileAvitar">
-                                    <Avatar   alt="Remy Sharp"   />
+                                    <div  className="SideIcons"><SearchIcon   /> 
+                                        <div className='SideIconText'>Search</div>
+                                    </div>
+                                    <div  className="SideIcons"><ExploreOutlinedIcon   />
+                                        <div className='SideIconText'>Explore</div>
+                                    </div>
+                                    <div  className="SideIcons"><SendOutlinedIcon  />
+                                        <div className='SideIconText'>Messages</div>
+                                     </div>
+                                    <div  className="SideIcons"><FavoriteBorderOutlinedIcon  />
+                                            <div className='SideIconText'>Notifications</div>
+                                    </div>
+                                    <div  className="SideIcons"><AddOutlinedIcon   />
+                                        <div className='SideIconText'>Create</div>
+                                    </div>
+                                    <div  className="SideIcons">
+                                        
+                                            
+                                        <Avatar  sx={{ width: 30, height: 30 }} alt="Remy Sharp"   />
+                                        <div className='SideIconText'>Profile</div>
+                                        
                                     </div>
                                     
                                 </div>
-                                <div className="MenuIcon" ><MenuIcon sx={{ fontSize: 35 }}/></div>
+                                <div className="SideIcons" ><MenuIcon sx={{ fontSize: 35 }}/>
+                                <div className='SideIconText'>More</div>
+                                </div>
                             </div>
             </div>
         );
