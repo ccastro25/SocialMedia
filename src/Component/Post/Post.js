@@ -32,6 +32,7 @@ class Post extends Component{
                                  <div className="PostComments">
                                     <input className="commentBox" placeholder="Add a comment..."/>
                                  </div>
+                                 <div className="PostDivider"></div>
                                 </div>
                             </div>
                                
