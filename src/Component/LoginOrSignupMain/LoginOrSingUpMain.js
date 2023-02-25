@@ -1,6 +1,7 @@
 import React,{Component} from "react";
 import Login from "../Login/Login";
 import MainContent from "../MainContent/MainContent";
+import Register from "../SignUP/Register";
 import SignUp from "../SignUP/SignUp";
 
 
@@ -16,6 +17,8 @@ class LoginOrSignUpMain extends Component{
                {/*<MainContent/>*/}
               {/*<Login/>*/ } 
                <SignUp/> 
+
+               <Register/>
             </div>
         );
     }

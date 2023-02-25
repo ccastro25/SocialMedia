@@ -69,8 +69,8 @@ class SignUp extends Component {
                                         <input className='InputBox' name ="userName" required="true" type="text" placeholder='Username'
                                             onChange={(event)=>{this.state.userName=event.currentTarget.value;}}
                                         />
-                                        <input className='InputBox' name="password" required="true" type ="password" aria-required="true"
-                                            autocapitalize="off" autocomplete="new-password" autoCorrect="off" placeholder='Password'
+                                        <input className='InputBox' name="password" required={true} type ="password" aria-required="true"
+                                            autoCapitalize="off" autoComplete="new-password" autoCorrect="off" placeholder='Password'
                                             onChange={(event)=>{this.state.password=event.currentTarget.value;}}   
                                                 />
                                     </div>
