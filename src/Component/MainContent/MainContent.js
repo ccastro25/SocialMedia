@@ -6,6 +6,7 @@ import Avatar from '@mui/material/Avatar';
 import StoryBoard from "../StoryBoard/StoryBoard";
 
 import Post from "../Post/Post";
+import SuggestedConnections from "../SuggestedConnections/SuggestedConnections";
 class MainContent extends Component{
     constructor(props){
         super(props);
@@ -31,46 +32,11 @@ class MainContent extends Component{
                                 <Post/>
                             </Grid>
                             <Grid   item xs ={3}>
-                            <div className="suggestions">
-                                <div className="suggestionsText">Suggestions for you</div>
-                                <div className="PicAndNameContainer">
-                                    <div className="suggestionsPic"> <Avatar/> </div> 
-                                    <div className="NameAndFollowContainer">
-                                        <div className="Name">Raul</div>
-                                        
-                                        <div className="follow">Follow</div>
-                                    </div>                                   
-                                 </div>
-
-                                 <div className="PicAndNameContainer">
-                                    <div className="suggestionsPic"> <Avatar/> </div> 
-                                    <div className="NameAndFollowContainer">
-                                        <div className="Name">Raul</div>
-                                        
-                                        <div className="follow">Follow</div>
-                                    </div>                                   
-                                 </div>
-
-                                 <div className="PicAndNameContainer">
-                                    <div className="suggestionsPic"> <Avatar/> </div> 
-                                    <div className="NameAndFollowContainer">
-                                        <div className="Name">Raul</div>
-                                        
-                                        <div className="follow">Follow</div>
-                                    </div>                                   
-                                 </div>
-
-                                 <div className="PicAndNameContainer">
-                                    <div className="suggestionsPic"> <Avatar/> </div> 
-                                    <div className="NameAndFollowContainer">
-                                        <div className="Name">Raul</div>
-                                        
-                                        <div className="follow">Follow</div>
-                                    </div>                                   
-                                 </div>
-                             </div>
+                           <SuggestedConnections/>
                             </Grid>
-                           </div>
+                        </div>
+
+                           
                         </Grid>
                              
                         </Grid>

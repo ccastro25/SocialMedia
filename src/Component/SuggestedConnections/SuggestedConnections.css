@@ -1,0 +1,43 @@
+
+.suggestions{
+
+    margin-top: 8px;
+    
+    padding-top: 16px;
+  
+  }
+  .PicAndNameContainer{
+  display: flex;
+  padding-top: 14px;
+  }
+  .suggestionsPic{
+    height: 46px;
+    width: 46px;
+  }
+  
+  .Name{
+    width: 180px;
+  }
+  
+  .suggestionsText{
+    width: 319px;
+    height: 8px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    color:rgb(168,168,168);
+    
+  }
+  .follow{
+    font-weight:.7rem ;
+    color: rgb(0,149,246);
+  }
+  
+  .NameAndFollowContainer{
+    padding-top: 12px;
+    display: flex;
+  }
+  .PotentiallyFollowing{
+    display: block;
+    width: 320px;
+  }
