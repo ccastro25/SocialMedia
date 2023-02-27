@@ -3,6 +3,8 @@ import Login from "../Login/Login";
 import MainContent from "../MainContent/MainContent";
 import Register from "../SignUP/Register";
 import SignUp from "../SignUP/SignUp";
+import SigningUp from "../SignUP/SigningUp";
+import { Route, Routes } from "react-router-dom";
 
 
 class LoginOrSignUpMain extends Component{
@@ -15,10 +17,18 @@ class LoginOrSignUpMain extends Component{
             <div>
                 
                {/*<MainContent/>*/}
-              {/*<Login/>*/ } 
-               <SignUp/> 
+              {/*  <SignUp/> */ } 
+               
+               <Routes>
+                    <Route path="/" element={<Login/>}/>
+                    <Route path="/signup" element={<SignUp/>}/>
+                    <Route path ="/maincontent" element={<MainContent/>}/>
 
-               <Register/>
+
+               </Routes>
+               
+              <Login/>
+              
             </div>
         );
     }

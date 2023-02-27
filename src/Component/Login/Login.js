@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Grid} from '@mui/material';
 import "./Login.css"
 import plata from "../../Images/plata.png";
+import { Link } from 'react-router-dom';
 
 class Login extends Component{
     constructor(props){
@@ -40,7 +41,7 @@ class Login extends Component{
                                 </div>
                                 
                                 <div className='SignUP'>
-                                   <p className ='SignUpText'> Dont have account? <span className='singupWord'>Sing up </span> </p>
+                                   <p className ='SignUpText'> Dont have account? <span className='singupWord'> <Link to='/signup'>Sing up</Link> </span> </p>
                                 </div>
                                
                                 

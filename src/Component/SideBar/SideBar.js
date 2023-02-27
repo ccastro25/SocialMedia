@@ -55,7 +55,7 @@ class SideBar extends Component{
                                     
                                 </div>
                                 <div className="SideIcons" ><MenuIcon sx={{ fontSize: 35 }}/>
-                                <div className='SideIconText'>More</div>
+                                <a className='SideIconText'>Sign Out</a>
                                 </div>
                             </div>
             </div>
