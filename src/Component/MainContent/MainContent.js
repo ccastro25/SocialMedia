@@ -7,15 +7,18 @@ import StoryBoard from "../StoryBoard/StoryBoard";
 
 import Post from "../Post/Post";
 import SuggestedConnections from "../SuggestedConnections/SuggestedConnections";
-class MainContent extends Component{
-    constructor(props){
-        super(props);
-        this.state = {}
-    }
-    render(){
-        return (
-            <div>
-                 <Grid container >
+
+
+
+
+
+const MainContent= ()=> {
+   
+
+    return(
+        <di>
+
+           <Grid container >
                         <Grid    item xs={1}>
 
                             <SideBar/>
@@ -39,11 +42,10 @@ class MainContent extends Component{
                            
                         </Grid>
                              
-                        </Grid>
-
-            </div>
-        );
-    }
+           </Grid>
+        </di>
+    );
 }
+
 
 export default MainContent;

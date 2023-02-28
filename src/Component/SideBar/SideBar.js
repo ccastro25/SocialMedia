@@ -10,13 +10,23 @@ import AddOutlinedIcon from '@mui/icons-material/AddOutlined';
 import AllInclusiveOutlinedIcon from '@mui/icons-material/AllInclusiveOutlined';
 import Avatar from '@mui/material/Avatar';
 import MenuIcon from '@mui/icons-material/Menu';
+import { UserAuth } from '../../Context/AuthContext'; 
+import {  useNavigate } from 'react-router-dom';
 
+    const SideBar =()=>{
+        const { user,logout } = UserAuth();
+        const navigate = useNavigate()
+         console.log(user.email);
 
-class SideBar extends Component{
-    constructor(props){
-        super(props);
-    }
-    render(){
+         const handleSubmit = async()=>{
+            try{
+                await logout()
+                navigate("/")
+            }catch(e){
+                console.log(e.message)
+            }
+         }
+            
         return(
             <div>
                               <div className='sideBar'>
@@ -49,19 +59,19 @@ class SideBar extends Component{
                                         
                                             
                                         <Avatar  sx={{ width: 30, height: 30 }} alt="Remy Sharp"   />
-                                        <div className='SideIconText'>Profile</div>
+                                        <div className='SideIconText'>{user.email}</div>
                                         
                                     </div>
                                     
                                 </div>
                                 <div className="SideIcons" ><MenuIcon sx={{ fontSize: 35 }}/>
-                                <a className='SideIconText'>Sign Out</a>
+                                <button onClick={handleSubmit} className='SideIconText' >Sign Out</button>
                                 </div>
                             </div>
             </div>
         );
         
-    }
+    
 }
 
 export default SideBar;

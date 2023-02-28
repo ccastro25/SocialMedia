@@ -1,16 +1,31 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import {Grid} from '@mui/material';
 import "./Login.css"
 import plata from "../../Images/plata.png";
 import { Link } from 'react-router-dom';
+import { UserAuth } from '../../Context/AuthContext';
+import { useNavigate } from 'react-router-dom';
 
-class Login extends Component{
-    constructor(props){
-        super(props);
-        this.state = {}
-    }
+const Login  =()=>{
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [error, setError] = useState('')
+    const { signIn } = UserAuth();
+    const navigate = useNavigate()
 
-    render(){
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setError('');
+        try {
+          await signIn(email, password);
+          navigate('/maincontent')
+        } catch (e) {
+          setError(e.message);
+          console.log(e.message);
+        }
+      };
+
+    
         return(
             <div>
 
@@ -21,16 +36,20 @@ class Login extends Component{
                         <Grid className='grid1'  item xs={2}>
 
                        
-                        <div className='LogIncontainer'>
+                        <form className='LogIncontainer'>
                        
 
                         
                                 <div className='LogInInnerContianer'>
                                 <img  className='PlataSign' src={plata} style={{height:80 }}/>
-                                    <input className='InputBox' placeholder='Mobile Number or Email'/>
-                                    <input className='InputBox' placeholder='Full Name'/>
+                                    <input className='InputBox' name="email" required={true}  type = "text" placeholder=' Email'
+                                          onChange={(e) => setEmail(e.target.value)}/>
+
+                                    <input className='InputBox' name="password" required={true} type ="password" aria-required="true"
+                                            autoCapitalize="off" autoComplete="new-password" autoCorrect="off" placeholder='Password'
+                                            onChange={(e) => setPassword(e.target.value)}/>
                                     
-                                    <button className="SignUPButton" >
+                                    <button className="SignUPButton"  onClick= {handleSubmit}>
                                  Log in  
                                 </button>
                                 <div className='OrContainer'>
@@ -45,7 +64,7 @@ class Login extends Component{
                                 </div>
                                
                                 
-                        </div>
+                        </form>
                         
                         </Grid>
                         <Grid   item xs={5}></Grid>
@@ -54,7 +73,6 @@ class Login extends Component{
         </Grid>
             </div>
         );
-    }
-}
+        }
 
 export default Login;
