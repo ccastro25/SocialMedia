@@ -29,7 +29,7 @@ export const AuthContextProvider = ({ children }) => {
       console.log(currentUser);
       setUser(currentUser);
     });
-    return () => {
+    return () => { 
       unsubscribe();
     };
   }, []);

@@ -5,10 +5,11 @@
 import SignUp from "./Component/SignUP/SignUp";
 import { AuthContextProvider } from './Context/AuthContext';
 
-import MainContent from "./Component//MainContent/MainContent";
+import MainContent from "./Component/MainContent/MainContent";
 
 import { Route, Routes } from "react-router-dom";
 import Login from "./Component/Login/Login";
+import ProtectedRoute from "./Component/ProtectRoute";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
               <Routes>
                     <Route path="/" element={<Login/>}/>
                     <Route path="/signup" element={<SignUp/>}/>
-                    <Route path ="/maincontent" element={<MainContent/>}/>
+                    <Route path ="/maincontent" element={<ProtectedRoute> <MainContent/> </ProtectedRoute>   }/>
                </Routes>
           </AuthContextProvider>
     </div>
